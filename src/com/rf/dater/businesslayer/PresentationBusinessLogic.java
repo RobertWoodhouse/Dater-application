@@ -9,8 +9,7 @@ public class PresentationBusinessLogic {
 	
 	public static String perfectMatch()
 	{
-		//createArrayRecords.loadDataFromFile("/Users/RegalBlack/Documents/workspace/RoomFinder/DaterDB.csv");
-		createArrayRecords.loadDataFromFile("DaterDB.csv");
+		createArrayRecords.loadDataFromFile("/Users/RegalBlack/Documents/workspace/RoomFinder/DaterDB.csv");
 		
 		// Handle database load exception
 		try{
@@ -42,8 +41,7 @@ public class PresentationBusinessLogic {
 	
 	public static void RowSearch(int recordNumber)
 	{
-		//createArrayRecords.loadDataFromFile("/Users/RegalBlack/Documents/workspace/CapitaDatingApp-Current_branch/src/DaterDater4.csv");
-		createArrayRecords.loadDataFromFile("DaterDB.csv");
+		createArrayRecords.loadDataFromFile("/Users/RegalBlack/Documents/workspace/CapitaDatingApp-Current_branch/src/DaterDater4.csv");
 		
 		// Handle database load exception
 		try{		

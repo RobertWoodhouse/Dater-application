@@ -25,6 +25,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
 
 public class DaterGUI extends JFrame {
 	
@@ -127,7 +128,7 @@ public class DaterGUI extends JFrame {
 		// Welcome Page				
 		JLabel lblTitle = new JLabel("Welcome to Dater");
 		lblTitle.setFont(new Font("Lucida Grande", Font.PLAIN, 29));
-		lblTitle.setBounds(182, 27, 359, 50);
+		lblTitle.setBounds(182, 33, 359, 50);
 		pnlWelcomePage.add(lblTitle);
 		
 		JButton btnSearch = new JButton(">>");
@@ -165,8 +166,11 @@ public class DaterGUI extends JFrame {
 		pnlWelcomePage.add(lblHeading);
 		
 		JLabel lblLogo = new JLabel("Logo");
-		lblLogo.setIcon(new ImageIcon("/Users/RegalBlack/Documents/workspace/RoomFinder/SpareRoom_sq.png"));
-		lblLogo.setBounds(488, -22, 196, 81);
+		lblLogo.setHorizontalAlignment(SwingConstants.RIGHT);
+		lblLogo.setLocation(109, 0);
+		lblLogo.setIcon(new ImageIcon("/Users/RegalBlack/Documents/workspace/RoomFinder/Dater-Pic.png"));
+		//lblLogo.setSize(581, 418);
+		lblLogo.setBounds(-107, -325, 1235, 1200);
 		pnlWelcomePage.add(lblLogo);
 		
         ActionListener actLisMakerBtn = new ActionListener() {//add actionlistner to listen for change
